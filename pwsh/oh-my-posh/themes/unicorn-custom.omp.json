@@ -20,11 +20,13 @@
           "foreground": "#003544",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "folder_separator_icon": "/",
-            "style": "full"
+            "folder_icon": "\uf115",
+            "folder_separator_icon": " \ue0b1 ",
+            "home_icon": "\uf7db",
+            "style": "agnoster"
           },
           "style": "powerline",
-          "template": " \ue5ff {{ .Path }} ",
+          "template": " {{ .Path }} ",
           "type": "path"
         },
         {
