@@ -20,7 +20,8 @@
           "foreground": "#003544",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "style": "folder"
+            "folder_separator_icon": "/",
+            "style": "full"
           },
           "style": "powerline",
           "template": " \ue5ff {{ .Path }} ",
